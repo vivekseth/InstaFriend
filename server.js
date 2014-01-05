@@ -10,7 +10,7 @@ app.use(express.bodyParser());
 var chat_url = "http://www.pandorabots.com/pandora/talk-xml";
 
 app.get('/', function(req, res){
-  res.send('hello world');
+  res.send('Welcome to InstaChat! please text +1 (908) 698-4131 to use. InstaFriend enjoys talking to new people! <br /><br /> Please note that all chat logs are recorded by default, so don\'t give any identifying information!<br /><br /> Made using Twilio API and PandoraBots API');
 })
 
 app.post('/', function(req, res){
